@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  height: 100px;
+  margin: 0;
+  align-items: center;
+  color: #7ed6e8;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.header-logo {
+  width: 40px;
+  margin-right: 8px;
+  margin-left: 24px;
+}
+
+main {
+  padding-left: 24px;
+  padding-top: 36px;
+  background-color: #242424;
+  height: 100vh;
+  background-image: url('./react.svg');
+  background-repeat: no-repeat;
+  background-position: right 25%;
+  background-size: 25% 25%;
+}
+
+li {
+  font-size: 1rem;
+  padding-block: 10px;
+}
+
+li::marker {
+  color: #69d9f3;
+  font-size: 24px;
+}
